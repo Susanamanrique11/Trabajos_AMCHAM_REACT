@@ -1,0 +1,6 @@
+.DiscoyPremios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 98vh;
+    gap: 10px;
+}

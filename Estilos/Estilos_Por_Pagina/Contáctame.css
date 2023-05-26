@@ -1,0 +1,65 @@
+.Formulario{
+    background-image: url(/Estilos/Imagenes/Fondos/Contáctame.jpg);
+    background-size: cover;
+}
+.Contacto{
+    margin-top: 40px;
+    flex-direction: column;
+    display: flex;
+    background-color:#ffffff00;
+    border-color: #ffffff00;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+.Titulo_Contactame{
+  margin-bottom: 8px;
+  font-family: Brush Script MT;
+  font-size: 350%;
+}
+.input-box{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Pangolin', cursive;
+}
+.Contáctame-form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.margin{
+    margin: 15px;
+}
+.button-submit {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    background-color: rgb(10, 255, 2);
+    border-style: none;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+.Contáctame-submit{
+    display: flex;
+    justify-content: center;
+}
+/* para pantallas grandes*/
+@media(min-width:600px){
+    .input-box{
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+    .button-submit{
+        width: 100%;
+    }
+}

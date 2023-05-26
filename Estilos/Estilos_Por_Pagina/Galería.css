@@ -1,0 +1,162 @@
+.Galeria{
+    background-image: url(/Estilos/Imagenes/Fondos/Galeria.jpg);
+    background-size: cover;
+}
+.Galeria_Billie {
+    width: auto;
+    background-image: url(/Estilos/Imagenes/Fondos/Fondogaleria.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px #e09595;
+}
+.Galeriatit{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 2px 2px #e09595;
+    color: #fff;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.gal {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.gal-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 300px + 3em);
+    text-align: center;   
+}
+
+.g1 {
+    min-height: 100%;
+    max-width: 25%;
+    align-items: center;
+}
+
+.gal-open:checked + .gal-item {
+    position: static;
+    opacity: 100;
+}
+.gal-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+.gal-item img {
+    margin: 1%;
+    justify-content: center;
+}
+.g1{width: 100%;}
+.g2{width: 37%;}
+.g3{width: 17%;}
+.g4{width: 40%;}
+.g5{width: 28%;}
+.g6{width: 44%;}
+.g7{width: 34%;}
+.g8{width: 41%;}
+.g9{width: 37%;}
+.g10{width: 37%;}
+.g11{width: 37%;}
+.g12{width: 44%;}
+
+.gal-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+.gal-control.prev {
+    left: 2%;
+}
+.gal-control.next {
+    right: 2%;
+}
+.gal-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+#gal-1:checked ~ .control-1,
+#gal-2:checked ~ .control-2,
+#gal-3:checked ~ .control-3,
+#gal-4:checked ~ .control-4,
+#gal-5:checked ~ .control-5,
+#gal-6:checked ~ .control-6,
+#gal-7:checked ~ .control-7,
+#gal-8:checked ~ .control-8,
+#gal-9:checked ~ .control-9,
+#gal-10:checked ~ .control-10,
+#gal-11:checked ~ .control-11,
+#gal-12:checked ~ .control-12 {
+    display: block;
+}
+.gal-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+.gal-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.gal-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+.gal-circulo:hover {
+    color: #aaaaaa;
+}
+#gal-1:checked ~ .control-1 ~ .gal-indicador 
+     li:nth-child(1) .gal-circulo,
+#gal-2:checked ~ .control-2 ~ .gal-indicador 
+      li:nth-child(2) .gal-circulo,
+#gal-3:checked ~ .control-3 ~ .gal-indicador 
+      li:nth-child(3) .gal-circulo,
+#gal-4:checked ~ .control-4 ~ .gal-indicador 
+      li:nth-child(4) .gal-circulo,
+#gal-5:checked ~ .control-5 ~ .gal-indicador 
+      li:nth-child(5) .gal-circulo,
+#gal-6:checked ~ .control-6 ~ .gal-indicador 
+      li:nth-child(6) .gal-circulo,
+#gal-7:checked ~ .control-7 ~ .gal-indicador 
+      li:nth-child(7) .gal-circulo,
+#gal-8:checked ~ .control-8 ~ .gal-indicador 
+      li:nth-child(8) .gal-circulo,
+#gal-9:checked ~ .control-9 ~ .gal-indicador 
+      li:nth-child(9) .gal-circulo,
+#gal-10:checked ~ .control-10 ~ .gal-indicador 
+      li:nth-child(10) .gal-circulo, 
+#gal-11:checked ~ .control-11 ~ .gal-indicador 
+      li:nth-child(11) .gal-circulo,
+#gal-12:checked ~ .control-12 ~ .gal-indicador 
+      li:nth-child(12) .gal-circulo {
+    color: #1fff01;
+}

@@ -1,0 +1,22 @@
+.Titulobiografia {
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 0px;
+    color: aliceblue;
+    text-shadow: 2px 2px #e09595;
+}
+.Biografía{
+    font-family: 'Pangolin', cursive;
+    background-image: url(/Estilos/Imagenes/Fondos/biografia2.jpg);
+}
+.Textobiografia {
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 20px;
+    padding-left: 1pc;
+    padding-right: 1pc;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1pc;
+}

@@ -1,0 +1,70 @@
+.TDisco {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 2px 2px #020202;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.Disco {
+    background-image: url(/Estilos/Imagenes/Fondos/Espacio.jpg);
+    background-size: cover;
+}
+
+.Discografíaflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Discografíaflex > div {
+    background-color: rgba(255, 252, 254, 0.534);
+    width:auto;
+    margin: 10px;
+    text-align: center;
+    line-height: auto;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 20px;
+}
+.title{
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #000000;
+    font-size: 125%;
+    font-stretch: condensed;
+}
+.lista{
+    padding-top: 5px;
+    text-align: left;
+    font-stretch: condensed;
+}
+.oceaneyes{
+    width: 100%;
+    height: fit-content;
+}
+.upnext{
+    width: 100%;
+    height: fit-content;
+}
+.liveatthird{
+    width: 100%;
+    height: fit-content;
+}
+.primeday{
+    width: 100%;
+    height: fit-content;
+}
+.guitar{
+    width: 100%;
+    height: fit-content;
+}
+.apple{
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+}

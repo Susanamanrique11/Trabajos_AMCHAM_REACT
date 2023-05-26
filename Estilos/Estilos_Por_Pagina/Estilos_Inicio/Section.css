@@ -1,0 +1,11 @@
+section {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 248, 254, 0.678);
+    border-radius: 50px;
+    background-color: rgb(247, 229, 243);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
